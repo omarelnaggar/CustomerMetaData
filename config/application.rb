@@ -11,6 +11,11 @@ end
 
 module CustomerMetadata
   class Application < Rails::Application
+    
+    # Shopify API connection credentials:
+    config.shopify.api_key = "588b0effc76a93cdce2be1453a7401b9"
+    config.shopify.secret = "7ff253dd69eb2bda49f9d3915371ae22"
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

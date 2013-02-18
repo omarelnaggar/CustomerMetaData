@@ -7,6 +7,9 @@ gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 
+# Added execjs and commented out less-rails-bootstrap
+gem 'execjs'
+# gem 'less-rails-bootstrap'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,6 +21,9 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+gem 'therubyracer', :platforms => :ruby
+
 end
 
 gem 'jquery-rails'
@@ -36,3 +42,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'shopify_app'
